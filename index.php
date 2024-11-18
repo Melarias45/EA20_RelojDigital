@@ -12,15 +12,11 @@
 <div class="py-5 text-center container">
     <h1 id="reloj" class="display-4"></h1> <!--Les puse clases de boostrap q me encontre, pueden cambiarlas si quieren para darle otro formato--> 
     <p id="mensaje" class="lead"></p> <!--Tmb pueden cambiar esa clase--> 
+    <img id="imagen" src="" alt="Imagen conforme a la hora" >
 </div>
 
 <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 
-<div class="text-center container">
-    <h1 id="reloj" class="display-4"></h1>
-    <p id="mensaje" class="lead"></p>
-    <img id="imagen" src="" alt="Imagen del momento del día" >
-</div> 
 
 <script>
     function actualizarReloj() {
