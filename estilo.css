@@ -1,3 +1,39 @@
 body {
     background-color: cadetblue;
+    color: darkblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.container {
+background-color: gray;
+padding: 20px;
+border-radius: 10px;
+max-width: 400px;
+}
+
+#imagen {
+    margin: 20px auto;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3); 
+
+}
+
+reloj {
+    font-size: 3rem; 
+    font-weight: bold;
+
+}
+
+
+#mensaje {
+    font-size: 2rem; 
+    font-style: italic; 
+    font-weight: lighter;
+    color: whitesmoke;
 }
