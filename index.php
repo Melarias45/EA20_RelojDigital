@@ -16,6 +16,12 @@
 
 <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 
+<div class="text-center container">
+    <h1 id="reloj" class="display-4"></h1>
+    <p id="mensaje" class="lead"></p>
+    <img id="imagen" src="" alt="Imagen del momento del día" >
+</div> 
+
 <script>
     function actualizarReloj() {
         const ahora = new Date(); //objeto tipo date para la fecha y hr actual
@@ -30,13 +36,19 @@
         var mensaje;
         if (horas >= 19 || horas < 5) {
             mensaje = "BUENAS NOCHES";
+            imagenSrc = "https://media.istockphoto.com/id/162515751/es/foto/moon-en-las-montañas.jpg?s=612x612&w=0&k=20&c=P_x1etxWDvwdawJjTKi7ssw0QOsopOBFlgPOotR9Bww="; 
         } else if (horas >= 5 && horas < 12) {
             mensaje = "BUENOS DIAS";
+            imagenSrc = "https://img.freepik.com/fotos-premium/amanecer-hermoso-paisaje-manana-naturaleza-amanecer_506085-374.jpg"; 
         } else {
             mensaje = "BUENAS TARDES";
+            imagenSrc = "https://media.istockphoto.com/id/917178010/es/foto/panorama-de-primavera-soleado-carretera-en-día.jpg?s=612x612&w=0&k=20&c=R2VoBx1MkGBUIKHH-65wH-0XQqERNbiSYk5iAhZvNkM="; 
         }
 
         document.getElementById('mensaje').textContent = mensaje;
+        const imagen = document.getElementById('imagen');
+        imagen.src = imagenSrc;
+        imagen.style.display = "block";
     }
 
     setInterval(actualizarReloj, 1000); //para ejec la funcion cada segundo
