@@ -20,9 +20,19 @@ align-items: center;
     width: 250px;
     height: 250px;
     background: #fff;
-
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center; 
 }
 
+.container div > span
+{
+  font-size: 180px;
+}
+
+
+
+/*
 #imagen {
     margin: 20px auto;
     max-width: 300px;
