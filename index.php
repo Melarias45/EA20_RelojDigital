@@ -28,8 +28,13 @@
     <h1 id="reloj" class="display-4"></h1>
     <p id="mensaje" class="lead"></p>
     <p id="fecha" class="lead"></p>
-    <img id="imagen" src="" alt="Imagen conforme a la hora">
 </div>
+
+    <div class="image">
+        <img id="imagen" src="path/to/your/image.jpg" alt="Image">
+    </div>
+</div>
+
 
 <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 
@@ -71,7 +76,7 @@
         document.body.className = claseFondo;
 
         // Mostrar la fecha actual
-        const diasSemana = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
+        const diasSemana = ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"];
         const meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
         const diaSemana = diasSemana[ahora.getDay()];
         const dia = ahora.getDate();
