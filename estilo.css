@@ -18,61 +18,46 @@ body {
 }
 
 .container {
-    background-color: rgb(36, 36, 36);
-    padding: 0px;
-    border-radius: 15px;
-    max-width: 800px;
-    max-height: 400px;
-    font-family: digital;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    z-index: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(36, 36, 36);
+    border-radius: 20px;
+    padding: 50px;
+    font-family: digital;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 #reloj {
-    font-size: 3rem;
+    font-size: 10rem;
     font-weight: bold;
-    color: rgb(0, 255, 0);
-    align-self: center;
+    color: rgb(#fff);
+    margin: 10px 0;
+    text-align: center;
 }
 
 #fecha {
     font-size: 2rem;
     font-weight: lighter;
-    color: rgb(0, 255, 0);
-    align-self: center;
+    color: rgb(#fff);
+    margin: 10px 0;
+    text-align: center;
 }
-
-.image {
-    background-color: rgb(36, 36, 36);
-    padding: 0px;
-    border-radius: 15px;
-    max-width: 80px;
-    max-height: 40px;
-    font-family: digital;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    z-index: 1;
-}
-
 
 #imagen {
-    max-width: 300px;
+    max-width: 90%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
-    position: relative;
-    top: 0;
-    right: 160px;
+    margin-bottom: 10px;
 }
 
 #mensaje {
     font-size: 2rem;
     font-weight: lighter;
-    color: rgb(4, 255, 0);
+    color: rgb(#fff);
+    text-align: center;
+    margin-top: 10px;
 }
