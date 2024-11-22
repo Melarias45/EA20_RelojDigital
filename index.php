@@ -10,12 +10,12 @@
     <style>
         body.noche {
             background-color: #2c3e50;
-            color: #ecf0f1;
+            color: #fff;
         }
 
         body.dia {
             background-color: #f1c40f;
-            color: #2c3e50;
+            color: #fff;
         }
 
         body.tarde {

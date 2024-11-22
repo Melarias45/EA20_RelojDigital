@@ -28,7 +28,7 @@ body {
     border-radius: 20px;
     padding: 50px;
     font-family: digital;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 15px rgba(#fff);
 }
 
 #reloj {
@@ -42,7 +42,7 @@ body {
 #fecha {
     font-size: 2rem;
     font-weight: lighter;
-    color: rgb(#fff);
+    color: rgb(white);
     margin: 10px 0;
     text-align: center;
 }
